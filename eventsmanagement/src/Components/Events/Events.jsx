@@ -1,14 +1,14 @@
 import React from "react";
 
 
-const Attendees = () => {
+const Events = () => {
 
     return(
         <div>
-            <p>Attendees</p>
+            <p> Events</p>
         </div>
     )
 
 }
 
-export default Attendees;
+export default Events
