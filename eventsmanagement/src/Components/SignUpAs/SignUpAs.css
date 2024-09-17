@@ -1,0 +1,61 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #110C29;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for the entire SignUpAs page */
+  .signup-as-container {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Title Styling */
+  .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Options container */
+  .options-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  /* Individual Option Box Styling */
+  .option-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); /* Box Shadow Effect */
+  }
+  
+  /* Hover effect for options */
+  .option-box:hover {
+    transform: scale(1.05); /* Scale the option slightly */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6); /* Stronger shadow on hover */
+  }
+  
+  /* Option Box Heading */
+  .option-box h2 {
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+  }
+  
